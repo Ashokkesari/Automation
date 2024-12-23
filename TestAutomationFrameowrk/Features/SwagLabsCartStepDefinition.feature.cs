@@ -76,7 +76,7 @@ namespace UITestLayer.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Login to SwagLabs")]
         [NUnit.Framework.CategoryAttribute("AddtoCart")]
-        [NUnit.Framework.TestCaseAttribute("Chrome", "standard_user", "secret_sauce", null)]
+        [NUnit.Framework.TestCaseAttribute("chrome", "standard_user", "secret_sauce", null)]
         public void LoginToSwagLabs(string browser, string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {

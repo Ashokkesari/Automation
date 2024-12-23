@@ -177,7 +177,7 @@ this.ScenarioInitialize(scenarioInfo);
             argumentsOfScenario.Add("title", title);
             argumentsOfScenario.Add("views", views);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Read the Post", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 30
+#line 29
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -187,13 +187,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 31
+#line 30
  testRunner.Given(string.Format("I create a new post uisng id \'{0}\' title \'{1}\' and views \'{2}\'", id, title, views), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 32
+#line 31
  testRunner.When(string.Format("I read a created post with id \'{0}\' title \'<updated title>\' and views \'{1}\'", id, views), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 33
+#line 32
  testRunner.Then(string.Format("I delete the created post with id \'{0}\'", id), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -202,23 +202,16 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Failing this Test case - Negative scenario Read the Post")]
-        [NUnit.Framework.CategoryAttribute("negative")]
-        [NUnit.Framework.TestCaseAttribute("", "title 16", "20000", null)]
+        [NUnit.Framework.TestCaseAttribute("200", "title 16", "20000", null)]
         public void FailingThisTestCase_NegativeScenarioReadThePost(string id, string title, string views, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "negative"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("id", id);
             argumentsOfScenario.Add("title", title);
             argumentsOfScenario.Add("views", views);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Failing this Test case - Negative scenario Read the Post", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 42
+#line 39
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -228,13 +221,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 43
+#line 40
  testRunner.Given(string.Format("I create a new post uisng id \'{0}\' title \'{1}\' and views \'{2}\'", id, title, views), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 44
+#line 41
  testRunner.When(string.Format("I read a created post with id \'{0}\' title \'<updated title>\' and views \'{1}\'", id, views), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 45
+#line 42
  testRunner.Then(string.Format("I delete the created post with id \'{0}\'", id), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

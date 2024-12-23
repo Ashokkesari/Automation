@@ -19,5 +19,5 @@ Scenario Outline: Login to SwagLabs
 	 Then should see the error message "Error: First Name is required"
 
 	 Examples:  
-	| Browser | username                | password     |
-	| chrome  | standard_user           | secret_sauce |
+	| Browser | username       | password     |
+	| chrome  | standard_user  | secret_sauce |
