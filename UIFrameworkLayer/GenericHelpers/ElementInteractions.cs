@@ -14,7 +14,8 @@ namespace UIFrameworkLayer.GenericHelpers
 {
     public class ElementInteractions : IElementInteractions
     {
-        private readonly DriverHelper _driverHelper;
+
+        private DriverHelper _driverHelper;
 
         public ElementInteractions(DriverHelper driverHelper)
         {
