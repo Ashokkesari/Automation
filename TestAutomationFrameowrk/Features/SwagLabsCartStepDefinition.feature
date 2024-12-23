@@ -16,4 +16,4 @@ Scenario Outline: Login to SwagLabs
 
 	 Examples:  
 	| Browser | username                | password     |
-	| Chrome  | standard_user           | secret_sauce |
+	| chrome  | standard_user           | secret_sauce |

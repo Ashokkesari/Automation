@@ -16,4 +16,4 @@ Scenario: Add to cart less than cost 10$
 
 	 Examples:  
 	| Browser | username                | password     |
-	| Chrome  | standard_user           | secret_sauce |
+	| chrome  | standard_user           | secret_sauce |
