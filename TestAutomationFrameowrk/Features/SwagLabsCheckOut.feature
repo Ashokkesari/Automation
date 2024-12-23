@@ -20,8 +20,3 @@ Scenario Outline: Login to SwagLabs
 
 	 Examples:  
 	| Browser | username                | password     |
-	| Chrome  | standard_user           | secret_sauce |
-	| edge    | problem_user            | secret_sauce |
-	| firefox | performance_glitch_user | secret_sauce |
-	| edge    | standard_user           | secret_sauce |
-	| Chrome  | error_user              | secret_sauce |

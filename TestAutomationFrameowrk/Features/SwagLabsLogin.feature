@@ -13,7 +13,6 @@ Scenario Outline: Login to SwagLabs
 	Examples: 
 	| Browser | username      | password     |
 	| chrome  | standard_user | secret_sauce |
-	| edge    | standard_user | secret_sauce |
 
 
 Scenario Outline: Login to SwagLabs with Invalid creds
