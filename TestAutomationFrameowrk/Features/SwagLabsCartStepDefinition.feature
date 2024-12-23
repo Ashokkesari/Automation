@@ -15,5 +15,5 @@ Scenario Outline: Login to SwagLabs
 	 Then navigate successfully to checkout page
 
 	 Examples:  
-	| Browser | username                | password     |
-	| chrome  | standard_user           | secret_sauce |
+	| Browser | username       | password     |
+	| chrome  | standard_user  | secret_sauce |

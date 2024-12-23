@@ -25,7 +25,6 @@ Scenario Outline: Update the Post
 	| 15 | title 10 | 500   | Modified Title   |
 
 
-
 @positive
 Scenario Outline: Read the Post
 	Given I create a new post uisng id '<id>' title '<title>' and views '<views>'
@@ -42,7 +41,7 @@ Scenario Outline: Failing this Test case - Negative scenario Read the Post
 	When I read a created post with id '<id>' title '<updated title>' and views '<views>'
 	Then I delete the created post with id '<id>'
 
-
+Examples:
 	| id  | title    | views |
 	| 200 | title 16 | 20000 |
 

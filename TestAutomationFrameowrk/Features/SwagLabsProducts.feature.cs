@@ -85,7 +85,7 @@ namespace UITestLayer.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Add to cart less than cost 10$")]
         [NUnit.Framework.CategoryAttribute("tag1")]
-        [NUnit.Framework.TestCaseAttribute("Chrome", "standard_user", "secret_sauce", null)]
+        [NUnit.Framework.TestCaseAttribute("chrome", "standard_user", "secret_sauce", null)]
         public void AddToCartLessThanCost10(string browser, string username, string password, string[] exampleTags)
         {
             string[] @__tags = new string[] {

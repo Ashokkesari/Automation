@@ -15,5 +15,5 @@ Scenario: Add to cart less than cost 10$
     And Added item count should match with shopping cart item count
 
 	 Examples:  
-	| Browser | username                | password     |
-	| chrome  | standard_user           | secret_sauce |
+	| Browser | username        | password     |
+	| chrome  | standard_user   | secret_sauce |
