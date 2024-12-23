@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/TestAutomationFrameowrk/bin
+/AutomationBusinessLogic/bin
+/AutomationBusinessLogic/obj
+/TestAutomationFrameowrk/obj
+/RestAPIAutomationTests/bin/Debug/net6.0
+/RestAPIAutomationTests/obj
+/RestAPIAutomationFramework/bin/Debug/net6.0
+/RestAPIAutomationFramework/obj
+/RestAPIAutomationBusinessLogics/bin/Debug/net6.0
+/RestAPIAutomationBusinessLogics/obj
+/UIFrameworkLayer/bin/Debug/net6.0
+/UIFrameworkLayer/obj
+/RestSharpTestLayer/bin/Debug/net6.0
+/RestSharpFrameworkLayer/bin/Debug/net6.0
+/RestSharpFrameworkLayer/obj
+/RestSharpBusinessLayer/bin/Debug/net6.0
+/RestSharpBusinessLayer/obj
+/RestSharpTestLayer/bin/Release/net6.0
+/RestSharpTestLayer/obj
